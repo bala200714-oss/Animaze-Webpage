@@ -466,6 +466,12 @@ form button{
         display: flex;
         align-items: center;
         padding: 10px;
+        
+        backdrop-filter: blur(20px);
+        background: transparent;
+        background-color: black;
+    
+
     }
 
     .hamburger{
