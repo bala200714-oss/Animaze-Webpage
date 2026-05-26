@@ -161,6 +161,7 @@ body{
     color: white;
     cursor: pointer;
     transition: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
 .hero-buttons button:hover{
@@ -172,8 +173,8 @@ body{
 .guide-robot{
     position: fixed;
     right: 30px;
-    top: 600px;
-    transform: translateY(-50%);
+    top: 400px;
+    transform: translateY(-10%);
     z-index: 999;
 }
 
@@ -183,7 +184,7 @@ body{
 }
 
 .guide-robot:hover{
-    transform:scaleX(1.1);
+    transform:scaleX(1);
     transition: 0.5s;
     box-shadow: 0 0 #b026ff;
 }
@@ -380,6 +381,40 @@ body{
 
 .contact p{
     padding: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-inline-size: 700px;
+    margin: auto;
+    border-radius: 30px;
+    color: #000;
+}
+
+form input{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+form textarea{
+    backdrop-filter: blur(50px);
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+form button{
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: blueviolet;
+    background: linear-gradient(to right, rgb(181, 24, 196),rgb(111, 33, 201) );
 }
 
 @media screen and (max-width:768px){
