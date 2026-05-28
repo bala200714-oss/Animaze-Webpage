@@ -75,7 +75,7 @@ body{
 .nav-links a:hover{
     color: rgb(218, 56, 191);
     text-shadow:10px 10px 20px #f521c0;
-    transform: translateY(-10px);
+    transform: translatey(-10px);
 }
 
 #menu-toggle{
@@ -174,7 +174,7 @@ body{
     position: fixed;
     right: 30px;
     top: 400px;
-    transform: translateY(-10%);
+    transform:scale(1.1);
     z-index: 999;
 }
 
@@ -381,7 +381,11 @@ body{
 
 .contact p{
     padding: 30px;
+    cursor: pointer;
+    width: 200px;
 }
+
+
 
 form{
     display: flex;
@@ -577,4 +581,9 @@ form button{
     }
 
 
+}
+
+i{
+    color: blue;
+    margin-right:20px ;
 }
